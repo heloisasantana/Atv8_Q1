@@ -1,0 +1,68 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextCodigo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/codigo_identificador_hint" />
+
+    <EditText
+        android:id="@+id/editTextValor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/valor_ingresso_hint"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/editTextTaxaConveniencia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/taxa_conveniencia_hint"
+        android:inputType="numberDecimal" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupTipoIngresso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioNormal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ingresso_normal" />
+
+        <RadioButton
+            android:id="@+id/radioVip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ingresso_vip" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/editTextFuncaoComprador"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/funcao_comprador_hint"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/buttonCalcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/calcular_valor_final" />
+
+    <!-- TextView para exibir o resultado da compra -->
+    <TextView
+        android:id="@+id/textViewResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text=""
+        android:textSize="16sp"
+        android:textColor="@android:color/black" />
+</LinearLayout>

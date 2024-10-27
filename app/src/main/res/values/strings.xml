@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Simulador de Venda de Ingressos</string>
+    <string name="codigo_identificador_hint">Código Identificador</string>
+    <string name="valor_ingresso_hint">Valor do Ingresso</string>
+    <string name="taxa_conveniencia_hint">Taxa de Conveniência</string>
+    <string name="ingresso_normal">Ingresso Normal</string>
+    <string name="ingresso_vip">Ingresso VIP</string>
+    <string name="funcao_comprador_hint">Função do Comprador (VIP)</string>
+    <string name="calcular_valor_final">Calcular Valor Final</string>
+    <string name="dados_compra">Dados da Compra</string>
+    <string name="voltar">Voltar</string>
+    <string name="tipo_ingresso">Tipo de Ingresso:</string>
+    <string name="codigo">Código:</string>
+    <string name="valor_final">Valor Final:</string>
+    <string name="funcao_comprador">Função do Comprador:</string>
+</resources>
